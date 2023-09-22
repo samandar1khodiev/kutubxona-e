@@ -1,0 +1,214 @@
+
+
+
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+ 
+.bgc-img {
+  background-image: url(../bgcimg1.webp);
+} 
+ 
+.container {
+  width: 1200px;
+  height:auto;
+  margin: 45px auto;
+  background-color: #fefffd;
+  box-shadow: 0px 0px 2px rgb(6, 255, 2); 
+}
+
+
+
+
+
+
+
+
+
+ /* ==== ma'ruza section started ==== */
+ .container .h1-1{
+  text-transform: uppercase;
+  text-align: center;
+  background-color:#2980b9;
+  padding: 12px;
+  font-size: 44px;
+  word-spacing: 14px;
+  letter-spacing: -1px;
+  color: #fefefe;
+  text-shadow: 0px 0px 3px #000000;
+}
+
+ .books-library{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+
+ .book{
+  display: flex;
+  width: 300px;
+  height: 40px;
+  background-color: rgba(22, 249, 22, 0.427);
+  border-radius:50px;
+  margin: 40px;
+}
+
+.books .books-library .book a{
+  display: flex;
+  align-items: center;
+  font-size: 24px;   
+}
+
+ .books a {
+  margin-left: 90px;
+ }
+/* ==== /ma'ruza section ended ==== */
+
+
+
+
+
+
+     /* .ch{
+      width: 1000px;
+      margin: auto;
+     } */
+
+
+
+     .back{
+      position: relative;
+      width:200px;
+      height: 24px;
+      background-color: rgba(0, 0, 0, 0.226);
+      border-radius:12px ;
+      display: flex;
+      align-items: center;
+      margin-left: 500px;
+      text-decoration: underline;
+}
+
+     .back a{
+      color: #1207e7;
+      text-align: center;
+      margin-left: 30px;
+     }
+
+ /* ==== labaratoriya section started ==== */
+
+
+
+
+
+
+    .m22 a{
+        margin-left: 62px;
+    }
+
+
+
+
+
+
+
+
+ @media only screen and (max-width:768px){
+   
+  .container {
+    width: 100%;;
+    height:auto;
+    margin: 0;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 2px rgb(6, 255, 2);
+  }
+
+
+
+  .container .h1-1{
+    text-transform: uppercase;
+    text-align: center;
+    background-color:#2980b9;
+    padding: 6px;
+    font-size: 24px;
+    color: #fefefe;
+    text-shadow: 0px 0px 3px #000000;
+    margin: 0 8px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+  .book{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(22, 249, 22, 0.427);
+    border-radius:50px;
+    margin: 20px;
+  }
+
+
+
+  .books .books-library .book a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;   
+  }
+
+  .books a {
+    margin-left: 60px;
+    
+   }
+   .extra a{
+    margin-left: 46px;
+   }
+
+
+   .container a{
+    font-size: 10px;
+   }
+
+
+
+
+
+
+   .back{
+    position: relative;
+    width:200px;
+    height: 24px;
+    border-radius:12px ;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+    margin: auto;
+}
+
+   .back a{
+    color: #e70759;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 30px;
+   }
+
+
+   .m22 a{
+    margin-left: 40px;
+   }
+
+ }
